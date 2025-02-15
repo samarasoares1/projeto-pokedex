@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/fundo01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+header > h1 > img{
+    width: 60vw;
+    height: max-content;
+}
+main{
+    margin: auto;
+    width: 90vw;
+    height: max-content;
+    background-color: white;
+    text-align: center;
+}
+.pokemon{
+    width: 90px;
+    height: 90px;
+}
+
