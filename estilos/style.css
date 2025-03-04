@@ -1,31 +1,63 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-body{
+@font-face {
+    font-family: 'Pokemon';
+    src: url(../fonte/dogica.otf);
+}
+body {
     background-image: url(../imagens/fundo01.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
 }
-header > h1 > img{
+header{
     width: 60vw;
     height: max-content;
-}
-main{
     margin: auto;
-    width: 90vw;
-    height: max-content;
-    background-color: white;
     text-align: center;
 }
-.pokemon{
-    width: 90px;
-    height: 90px;
+.logo{
+    width: 50vw;
 }
-
+table{
+    margin: auto;
+    border-radius: 2px;
+}
+td{
+    border: 1px solid rgba(0, 0, 0, 0.317);
+    box-shadow: inset 1px 2px 6px rgba(128, 128, 128, 0.378);
+    width: 10vw;
+    padding: 10px;
+}
+th{
+    font-family: 'Pokemon';
+    font-size: 0.8em;
+}
+caption{
+    padding: 10px;
+    font-size: 0.8em;
+}
+main {
+    box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.405);
+    margin: auto;
+    padding: 10px;
+    width: 90vw;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.281);
+    text-align: center;
+    border-radius: 10px;
+}
+.pokemon:hover{
+    width: 17vw;
+    transition: 1s;
+}
+.pokemon {
+    width: 15vw;
+    height: max-content;
+}
