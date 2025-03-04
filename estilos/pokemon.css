@@ -48,8 +48,8 @@ td{
     font-size: 1em;
     padding: 10px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.348);
-    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.907);
+    box-shadow: inset 2px 2px 3px rgba(128, 128, 128, 0.427);
 }
 section{
     margin: auto;
